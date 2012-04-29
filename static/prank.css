@@ -1,0 +1,163 @@
+/* Stylesheet, (c)2006 Prank!Mania!. */
+
+/* Globals  -------------------------------------------------------------------------- */
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #caee51;
+}
+
+body, td, th, h3, textarea, input, select { /* redundant rules for bad browsers  */
+	font-family: cursive;
+	font-size:    x-small;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	font-size:    small
+} 
+
+br {
+	clear: left;
+}
+
+h1 {
+	text-align: center;
+	}
+
+h2 {
+	font-family: cursive;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0.2em;
+	font-size: 140%;
+	font-weight: normal;
+	
+}
+
+h3 {
+	font-family: cursive;
+	text-color: white;
+	margin-top: 0;
+	margin-bottom: 0.2em;
+	font-size: 160%;
+	font-weight: bold;
+	clear: left;
+	text-align: center;
+}
+
+
+h6 {
+	font-family: cursive;
+	text-color: white;
+	margin-top: 0;
+	margin-bottom: 0.2em;
+	font-size: 110%;
+	font-weight: bold;
+	clear: left;
+	text-align: center;
+}
+
+
+a {
+	color: #F3F6E5; 
+	TEXT-DECORATION: none;
+}
+
+a:hover, a:focus {
+	color: #003; 
+}
+
+a:active {
+	color: #000; 
+}
+
+/* Instructions Box  ----------------------------------------------------------------------------- */
+
+li {
+	font-size: 160%;
+	vertical-align: middle;
+}
+
+#whitebox {
+ 	font-family: cursive;
+ 	background: #FFFC28;
+ 	text-align: justify;
+	float: right;
+	width: 400px;
+ 	padding: 10px;
+ 	border: black 4px dashed;
+}
+
+.boldred {
+	font-weight: bold;
+	color: red;
+}
+
+h4 {
+	font-size: 160%;
+	color: red;
+	text-align: center;
+}
+
+/* Divs  ----------------------------------------------------------------------------- */
+
+#frame {
+	width:650px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:10px;
+	padding:0px;
+	text-align:center;
+	}
+
+#columnthin {
+	margin: 0px;
+ 	width: 214px;
+	float:left;
+	background: #333333; 
+}
+
+#columnright {
+	margin: 0px;
+ 	width: 214px;
+	float:right;
+	background: #333333; 
+}
+
+#box {
+ 	margin-top: 3px;
+ 	margin-bottom: 3px;
+ 	margin-right: 2px;
+	margin-left:2px;
+ 	background: #4298FE;
+ 	text-align: justify;
+ 	padding: 4px;
+}
+
+
+#smbox {
+ 	margin-top: 3px;
+ 	margin-bottom: 3px;
+ 	margin-right: 2px;
+	margin-left:2px;
+ 	background: #4298FE;
+ 	text-align: justify;
+ 	padding: 0px;
+}
+
+#smredbox {
+ 	margin-top: 3px;
+ 	margin-bottom: 3px;
+ 	margin-right: 2px;
+	margin-left:2px;
+ 	background: red;
+ 	text-align: justify;
+ 	padding: 0px;
+}
+
+#bottombox {
+ 	margin: 0px;
+ 	width: 100%;
+ 	align: center;
+ 	background: #000000; 
+}
